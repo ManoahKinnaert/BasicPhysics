@@ -1,0 +1,11 @@
+.navbar {
+    background-color: rgb(10, 10, 10);
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar h1 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}

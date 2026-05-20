@@ -1,0 +1,54 @@
+.page-title {
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+p {
+    color: white;
+    font-style: italic;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: flex;
+    gap: 15px;
+    padding: 10px 20px 10px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    background: #222;
+    padding: 40px;
+    border-radius: 8px;
+    color: white;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.card:hover {
+    background-color: rgba(40, 40, 40, 0.7);
+    transform: translateY(-5px); 
+}
+
+.card h3 {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.card-btn {
+    margin: 10px;
+    padding: 5px 50px 5px 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(50, 220, 200);
+    font-size: 15px;
+}
+
+.card-btn:hover {
+    background-color: rgb(50, 255, 255);
+    cursor: pointer;
+}
